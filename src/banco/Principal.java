@@ -7,6 +7,7 @@ public class Principal {
 
     public static void main(String[] args) 
     {
+        //Feito pelo victor
        Banco b = new Banco();
        b.getCliente();
        b.getCodBanco();
