@@ -1,6 +1,8 @@
 
 package banco;
 
+import java.lang.reflect.Array;
+
 
 public class Principal {
 
@@ -28,6 +30,11 @@ public class Principal {
        p.getNome();
        p.getIdade();
        p.getCpf();
+       
+        System.out.println("Mostrando informações do Banco: "+b.getCliente()+"; "+b.getCodBanco()+"; "+b.getFuncionario()+"; "+b.getNome()+"\n");
+        System.out.println("Mostrando informações do Cliente: "+c.getBanco()+"; "+c.getCodCliente()+"; "+c.getCredito()+"; \n");
+        System.out.println("Mostrando informações do Cliente: "+f.getCodFuncionario()+"; "+f.getSetor()+"; "+f.getBanco()+"; \n");
+        System.out.println("Mostrando informações do Cliente: "+p.getNome()+"; "+p.getIdade()+"; "+p.getCpf()+"; \n");
     }
     
 }
